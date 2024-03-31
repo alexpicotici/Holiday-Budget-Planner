@@ -32,7 +32,7 @@ def hotel_cost(nights: int, city: str) -> int:
 
 
 # Calculate plane cost:
-def plane_cost(city: str) -> int:
+def flight_cost(city: str) -> int:
     """
     Takes in a str value and assigns an int value to it.
     Returns the int value as the cost of the plane ticket.
@@ -130,7 +130,7 @@ rental_days = input("How many days will you need to rent a car for?:\n ")
 
 # Calling the functions and calculating the total holiday cost:
 hotel_spending = hotel_cost(num_nights, city_flight)
-flight_spending = plane_cost(city_flight)
+flight_spending = flight_cost(city_flight)
 car_spending = car_rental(rental_days, city_flight)
 holiday_total_spending = holiday_cost(hotel_spending, flight_spending, car_spending)
 
