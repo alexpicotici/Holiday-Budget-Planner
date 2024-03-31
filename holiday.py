@@ -104,7 +104,8 @@ def holiday_cost(hotel: int, plane: int, car:int) -> int:
 """
 The user will be asked to provide their destination city, the number of
 nights they will be staying in hotels, and the number of days they will 
-be using a rented car.
+be using a rented car. The user can only choose a destination available
+in the city list, which is the database of the program.
 """
 # List of city destinations that the user can choose from:
 city_list = ["Paris", "Bucharest", "London", "Milan", "Tokyo", "Manila",
